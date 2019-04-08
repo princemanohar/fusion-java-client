@@ -31,7 +31,7 @@ public class FusionConnect {
         OkHttpClient client = new OkHttpClient();
 
         MediaType mediaType = MediaType.parse("application/json");
-        RequestBody body = RequestBody.create(mediaType, "{ \"username\" : \"admin\" , \"password\" : \"brother@2624\" }");
+        RequestBody body = RequestBody.create(mediaType, "{ \"username\" : \"admin\" , \"password\" : \"zxz@32@!ff\" }");
         Request request = new Request.Builder()
                 .url("http://192.168.0.26:8764/api/session")
                 .post(body)
